@@ -1,0 +1,85 @@
+GIT commands ::
+
+// Configure user name globally
+git config --global user.name
+
+// Configure email
+git config --global user.email
+
+// To check the list of config settings made on gitHub
+
+//Create a repository
+working directory - local
+Remote repository - In GitHib
+
+// Clone a repository
+git clone https://github.com/mishra-rishik/FSD_DEMO_REPO.git
+
+//Create a GIT repository locally
+git init
+
+// Check status of repository
+git status -s
+
+//Add all files to push to the repository
+git add .
+
+//Commit the stack to be pushed
+git commit -m "First checkin"
+
+// Inform the url of the cloud repository where you want to check in files from local repository
+git remote add origin "https://github.com/mishra-rishik/Rishik_Demo_Repo_Push.git"
+
+// Push files
+git push origin master
+
+// to check GitHub logs
+git logs
+
+// Get difference
+git show commitId
+
+// To check difference of local system files and repository before commit
+git diff
+
+
+// Tag a commit with meaningful names
+git tag -a "Release_1" -m "Added for error handling" HEAD
+
+//
+git pull
+
+//Delete a tag
+git tag -d Release_0
+
+//Create branch
+git branch branchName
+
+//Create new branch and checking new branch
+git checkout -b "branch name"
+
+//Delete branch
+git branch -D "branch name"
+First go to another branch before deleting a current branch
+
+//Rename a branch
+git branch -M "old branch name" "new branch name"
+
+//Merging branch
+-- got to another branch
+-- git merge "New branch Name"
+
+======================================================================================================================
+Jenkins ::
+
+Download jenkins.war
+Create a new workspace for jenkins
+Configure server in eclipse
+import jenkins.war in the eclipse workspace
+deploy the jenkins.war
+Unlock the jenkins local client with the password that got generated
+
+
+
+
+
